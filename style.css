@@ -8,5 +8,18 @@ section{
 }
 h1{
     color: goldenrod;
-    font-weight: 1100;
+    font-weight: 900;
+}
+.order-food{
+    text-decoration: none;
+    padding: 10px 35px;
+    background-color:hsl(22, 92%, 62%) ;
+    border-radius: 20px;
+}
+.top-half{
+    width: 50%;
+}
+.top-half img{
+    width: 90%;
+    padding-left: 5%;
 }
