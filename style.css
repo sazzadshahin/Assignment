@@ -11,7 +11,7 @@ section{
 }
 .navigation{
     padding: 14px;
-    background-color: lightskyblue;
+    background-color: rgb(4, 105, 168);
 }
 li {
    float: left;
@@ -72,29 +72,33 @@ h1{
     width: 100%;
 }
 .subs{
+    width: 100%;
      margin:9%;
-     margin-top: -40px;
+     margin-top: -20px;
+    
 }
 .k{
-    width: 100%;
+    width: 80%;
     display: flex;
     list-style: none;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: -20px;
+    background-color: rgb(218, 108, 36);
 }
 .list{
     margin: auto;
 }
 .footer{
     padding: 20px;
-    background-color: black;
+    background-color: rgb(102, 2, 2);
     text-align:center;
-    color: whitesmoke;
 }
 .text{
     width: 100%;
+}
+a{
+    color: whitesmoke;
 }
 .contact{
     display: flex;
@@ -102,6 +106,7 @@ h1{
 }
 .contact img{
     width: 6%;
+    box-sizing: border-box;
     border-image: 2px;
     border-radius: 5px;
     margin-left: 50px;
